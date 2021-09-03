@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+
+  <script>
+
+    var firstNumber = parseInt(prompt("Enter first number: "));
+    var mathOperation = prompt("Enter mathematical operation (+, -, *, /): ");
+    var secondNumber = parseInt(prompt("Enter second number: "));
+
+    if (mathOperation == "+") {
+      alert(firstNumber + secondNumber);
+    } else if (mathOperation == "-") {
+      alert(firstNumber - secondNumber);
+    } else if (mathOperation == "*") {
+      alert(firstNumber * secondNumber);
+    } else if (mathOperation == "/") {
+      alert(firstNumber / secondNumber);
+    } else {
+      alert("Something went wrong. Refresh the page and try again.");
+    }
+
+  </script>
+
+</body>
+
+</html>
